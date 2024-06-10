@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        background-color: gray;
+        height: 45px;
+        width: 45px;
+
+    }
+    .gridplace{
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        gap: 5px;
+    }
+    body{
+        background-color: rgb(24, 24, 24);
+    }
+</style>
+<body>
+    <div class="gridplace">
+
+    </div>
+    
+    <button id='start' style="position: absolute;right:250px; top: 325px;">Start</button>
+    <script src="src.js"></script>
+</body>
+</html>
