@@ -1,1 +1,1 @@
-its just simple JS game made from Scratch
+its just simple Snake game made out of JS from Scratch
