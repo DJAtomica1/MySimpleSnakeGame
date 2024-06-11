@@ -112,6 +112,8 @@ document.addEventListener("DOMContentLoaded", function () {
             if(app == '1'){
                 bober.setAttribute('apple', '0');
                 score++;
+                sc = document.getElementById('thescore');
+                sc.innerHTML = "score: " + (score - 6);
                 placeApple();
             }
             else
